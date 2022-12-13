@@ -1,0 +1,59 @@
+* {
+  margin: 20;
+  padding: 5;
+}
+
+body {
+  background-image: url("background.png");
+  font-family: poppins;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 0,5;
+  font-weight: bold;
+  border-bottom: 10rem;
+}
+
+header{
+  background: #642EFE;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  grid-template-columns: 3fr 3fr;
+  align-items: center;
+  margin: auto;
+}
+
+
+nav {
+
+}
+
+ul {
+display: flex;
+flex-flow: wrap;
+justify-content: space-between;
+margin-top: 3rem;
+}
+
+li a {
+  background-color: red;
+  border-spacing: inherit;
+
+}
